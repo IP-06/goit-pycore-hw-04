@@ -1,4 +1,4 @@
-# Task 1
+# Task 1_luyda
 from datetime import datetime
 
 date = input("Enter Year-month-day: ")
@@ -10,4 +10,5 @@ def get_days_from_today(date_object):
     result = real_date - date_object
     return(result.days)
     
+
 print(get_days_from_today(date_object))
